@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  style
+    .red {
+      color: red;
+    }
+
+  h1= title
+  hr
+  p.red Welcome to #{title}
+
+  div.cities
+
+block scripts
+
+  script
+
+    (function($) {
+    
+        $(".cities").kendoGrid({
+            dataSource: new kendo.data.DataSource({
+                transport: {
+                    read: "cities"
+                },
+                schema: {
+                    data: "data",
+                    total: "total"
+                },
+                pageSize: 10,
+                serverPaging: true
+            }),
+            pageable: true,
+            editable: true
+        });
+
+    }(jQuery))

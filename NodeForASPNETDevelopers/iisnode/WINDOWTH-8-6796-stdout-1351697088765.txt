@@ -1,0 +1,7 @@
+Express server listening on port \\.\pipe\cfdd7e91-ee1d-433f-a84d-05ae090c8018
+[90mGET / [32m200 [90m180ms - 942[0m
+[90mGET /cities?take=10&skip=0&page=1&pageSize=10 [32m200 [90m13ms - 1.4kb[0m
+[90mGET /cities?take=10&skip=40&page=5&pageSize=10 [32m200 [90m12ms - 1.42kb[0m
+[90mGET /cities?take=10&skip=70&page=8&pageSize=10 [32m200 [90m36ms - 1.46kb[0m
+[90mGET /cities?take=10&skip=20&page=3&pageSize=10 [32m200 [90m12ms - 1.42kb[0m
+[90mGET /cities?take=10&skip=90&page=10&pageSize=10 [32m200 [90m15ms - 1.48kb[0m
